@@ -26,16 +26,16 @@ Servo pomoServo;
 int pomoServoPin = 9;
 
 // The length of one pomodoro work interval (25 minutes by tradition)
-int pomodoroLength = 10;
+int pomodoroLength = 25;
 
 // The length of one short break interval (5 minutes by tradition)
-int shortBreakLength = 2;
+int shortBreakLength = 5;
 
 // The number of pomodoros before taking a long break
 int longBreakAfter = 4;
 
 // The length of one long break interval (15 minutes by tradition)
-int longBreakLength = 5;
+int longBreakLength = 15;
 
 // A counter to keep track of the number of pomodoros achieved and short or long breaks taken
 int pomodoros = 0;
@@ -43,7 +43,7 @@ int shortBreaks = 0;
 int longBreaks = 0;
 
 // How many seconds in a minute. (During testing I would adjust this to make it shorter)
-int minuteDuration = 5;
+int minuteDuration = 60;
 
 // The timer
 int timer = 0;
